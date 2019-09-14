@@ -1,0 +1,84 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#wrapper{
+    width: 720px;
+    margin: 10px auto;
+}
+#header{
+    width: auto;
+    height: 66px;
+    background-color:#ffc107;
+    display: flex;
+    align-items: center;
+}
+.box1{
+    width: 438px;
+    height: 34px;
+    margin-left: 20px;
+    background-color:  blue;
+    border: solid 1px white;
+
+}
+.box2{
+    margin-left: 20px;
+    height: 34px;
+    width: 218px;
+    background-color:  blue;
+    border: solid 1px white;
+}
+#content{
+    margin-top:20px;
+    height: 132px;
+    background-color: silver;
+    display: flex;
+}
+#nav{
+    height: 132px;
+    width: 345px;
+    margin-left: 10px;
+}
+#aside{
+    height: 132px;
+    width: 345px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.tren{
+    width: 303px;
+    height: 18px;
+    margin-top: 26px;
+    margin-left: 25px;
+    border: 1px solid white;
+    background-color: blue;
+}
+.duoi{
+    width: 303px;
+    height: 34px;
+    margin-top: 26px;
+    margin-left: 25px;  
+    border: 1px solid white;
+    background-color: blue;
+}
+.tren1{
+    width: 150px;
+    height: 100px;
+    margin-left: 15px;
+    border: 1px solid white;
+    background-color: blue;
+}
+#footer{
+    width: 720px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    background-color: blue;
+}
+.box3{
+    width: 203px;
+    margin-left: 27px;
+    border: solid white 1px;
+}
