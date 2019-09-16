@@ -1,3 +1,7 @@
+.Wrapper{
+    height: 100%; 
+    width:640px;
+}
 .a2{
     color: dimgray;
     font-weight: bold;
@@ -12,7 +16,8 @@
     font-weight: bold;
 }
 .a1:hover{
-    border-bottom: 4px solid dimgray;
+    color: white ;
+   border-bottom: 4px solid dimgray;
 }
 .a3{
     color:white;
