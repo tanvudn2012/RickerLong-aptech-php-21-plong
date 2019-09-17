@@ -1,0 +1,65 @@
+.Wrapper{
+    height: 100%; 
+    width:640px;
+}
+.Header{
+    height: 20%;
+    &__Firt-row{
+        &__1st-column{
+            
+        }
+        &__2st-column{
+            &__anchor{
+                &--active-white{
+                    color: white ;
+                    border-bottom: solid 4px white;
+                    font-weight: bold;
+                    &:hover{
+                        color: white ;
+                        border-bottom: 4px solid dimgray;
+                    }
+                }
+                &--active-silver{
+                    color: dimgray;
+                    font-weight: bold;
+                    &:hover{
+
+                        color: dimgray;
+                        border-bottom: solid 4px dimgray;
+                    }
+                }
+            }
+        }
+    }
+}
+.Between{
+    height: 60%;
+    &__Firt-row{
+        &__Para--size18px{
+            font-size: 18px;
+        }
+        &__btn--white{
+            font-weight: bold;
+            background-color: white;
+            width: 150px;
+            height: 50px;
+            border-radius: 5px;
+        }
+    }
+
+}
+.Footer{
+    height: 20%;
+    &__Firt-row{
+        &__Para--dimgray{
+            color: dimgray;
+            &__Anchor--white{
+                color: white;
+                &:hover{
+                    color: white;
+            }
+            }
+        }
+            
+    }
+}

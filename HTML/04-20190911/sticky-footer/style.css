@@ -1,22 +1,28 @@
-body{
-    height: 100%;
-    margin: 0px auto;
+body {
+  height: 100%;
 }
-.head{
-    width: 100%;
-    margin-top: 
+
+.Head {
+  width: 100%;
 }
-.p1{
-    font-size: 20px;
-    color: #343a40;
+
+.Head__container {
+  width: 680px;
 }
-.footer{
-    width: 100%;
-    margin-top: 410px; 
+
+.Head__container__1st-Row__Para--dark {
+  font-size: 20px;
+  color: #343a40;
 }
-.container{
-    width: 60%;
+.Footer{
+  width: 100%;
+  margin-top: 410px;
 }
-.p2{
-    color: #6c757d;
+.Footer__container {
+  width: 680px;
 }
+
+.Footer__container__1st-Row__Para--silver {
+  color: #6c757d;
+}
+/*# sourceMappingURL=style.css.map */

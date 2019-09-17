@@ -1,0 +1,61 @@
+.Wrapper {
+  height: 100%;
+  width: 640px;
+}
+
+.Header {
+  height: 20%;
+}
+
+.Header__Firt-row__2st-column__anchor--active-white {
+  color: white;
+  border-bottom: solid 4px white;
+  font-weight: bold;
+}
+
+.Header__Firt-row__2st-column__anchor--active-white:hover {
+  color: white;
+  border-bottom: 4px solid dimgray;
+}
+
+.Header__Firt-row__2st-column__anchor--active-silver {
+  color: dimgray;
+  font-weight: bold;
+}
+
+.Header__Firt-row__2st-column__anchor--active-silver:hover {
+  color: dimgray;
+  border-bottom: solid 4px dimgray;
+}
+
+.Between {
+  height: 60%;
+}
+
+.Between__Firt-row__Para--size18px {
+  font-size: 18px;
+}
+.Between__Firt-row__btn--white {
+  font-weight: bold;
+  background-color: white;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.Footer {
+  height: 20%;
+}
+
+.Footer__Firt-row__Para--dimgray {
+  color: dimgray;
+}
+
+.Footer__Firt-row__Para--dimgray__Anchor--white {
+  color: white;
+}
+
+.Footer__Firt-row__Para--dimgray__Anchor--white:hover {
+  color: white;
+}
+/*# sourceMappingURL=vu.css.map */
