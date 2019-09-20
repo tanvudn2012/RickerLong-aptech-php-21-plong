@@ -1,53 +1,49 @@
-*{
-    margin: 0px;
-    padding: 0px;
+.Wrapper {
+  background-color: #9ad1f1;
+  margin: 20px auto;
+  width: 600px;
+  height: 700px;
+  border: solid 2px black;
+  border-radius: 50px;
 }
-.box{
-    background-color: rgb(154, 209, 241);
-    margin: 20px auto;
-    width: 600px;
-    height: 650px;
-    border: solid 2px black;
-    border-radius: 50px;
-}
-.wrapper{
-    width: auto;
-    height: 390px;
-    border-bottom: solid black 1px;
-}
-h1{
-    margin-top: 30px; 
-    text-align: center;
-}
-.img{
-    float: right;
-    background-image: url(img/lg1.png);
-    background-size: 100px 100px;
-    margin: 5px 40px 0px 0px;       
-    width: 100px;
-    height: 100px;
 
+.Wrapper__Header {
+  width: auto;
+  height: 450px;
+  border-bottom: solid black 1px;
 }
-.head{
-    margin-top: 30px;
-    text-align: center;
+
+.Wrapper__Header__1st-Row__1st-Col__Image {
+  background-image: url(img/lg1.png);
+  background-size: 100px 100px;
+  width: 100px;
+  height: 100px;
 }
-.clear{
-    margin: 0px auto;
-    width: 200px;
-    height: 5px;
-    border-bottom: solid 1px black;
+
+.Wrapper__Header__1st-Row__2nd-Col__Tiles {
+  margin: 0px auto;
+  width: 200px;
+  height: 1px;
+  border-bottom: solid 1px black;
 }
-.box1{
-    margin: 30px 0px 0px 80px;
-    float: left;
+
+.Wrapper__Header__2nd-Row {
+  padding: 5px 0px 0px 90px;
 }
-.box1 ul li{
-    padding: 5px;
+
+.Wrapper__Header__2nd-Row__1st-Col ul li {
+  padding: 5px;
 }
-.bottom{
-    margin: 15px 0 0 80px;
+
+.Wrapper__Bottom {
+  margin: 15px 0 0 80px;
 }
-.bottom ul li{
-    padding: 5px
+
+.Wrapper__Bottom__1st-Row {
+  padding: 5px 0px 0px 90px;
 }
+
+.Wrapper__Bottom__1st-Row__1st-Col ul li {
+  padding: 5px;
+}
+/*# sourceMappingURL=style.css.map */

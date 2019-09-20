@@ -82,3 +82,8 @@
     margin-left: 27px;
     border: solid white 1px;
 }
+@media screen and ( max-width: 200px){
+    #wrapper , #header , #content,  #footer{
+        width: 100%;
+    }
+}
