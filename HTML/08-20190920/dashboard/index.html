@@ -1,34 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css">
-<link rel="stylesheet" href="style.css">
-<title>Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
 </head>
+
 <body>
-    <div class=" Header container-fluid bg-dark">
-        <div class="row">
-            <div class="col-2">
-                <a class=" text-white" href="">Company name</a>
+    <div class=" Header container-fluid bg-dark ">
+        <div class="row  ">
+            <div class="col-2  py-1 d-flex flex-column justify-content-center " style=" background-color: #000;">
+                <a class="text-decoration-none text-white " href="#">Company name</a>
             </div>
-            <div class="col-10 ">
-                <form action="" class=" d-flex">
-                    <input class=" w-100 form-control bg-white" type="text" placeholder="Seach" name="" id="">
-                    <a href="">Sign out</a>
+            <div class="col-10  py-1 pl-0">
+                <form action="" class="  d-flex">
+                    <input class=" w-100 pl-3 form-control-range " type="text" placeholder="Seach" name="" id="">
+                    <a class=" nav-link text-nowrap text-secondary" href="">Sign out</a>
                 </form>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2 bg-light border-right border-secondary">
+                <ul class=" nav flex-column">
+                    <li class=" nav-item">
+                        <a class=" nav-link text-decoration-none " href="#"><i class="fas fa-home text-primary  "></i>
+                            <small class="font-weight-bold text-primary">Dashboard</small></a>
+                    </li>
+                    <li class=" nav-item">
+                        <a class=" nav-link text-decoration-none text-secondary" href="#"><i
+                                class="far fa-sticky-note"></i> <small
+                                class="font-weight-bold text-dark">Orders</small></a>
+                    </li>
+                    <li class=" nav-item">
+                        <a class=" nav-link text-decoration-none text-secondary" href="#"><i
+                                class="fas fa-shopping-cart"></i> <small
+                                class="font-weight-bold text-dark">Products</small></a>
+                    </li>
+                    <li class=" nav-item">
+                        <a class=" nav-link text-decoration-none text-secondary" href="#"><i
+                                class="fas fa-user-friends"></i> <small
+                                class="font-weight-bold text-dark">Customers</small></a>
+                    </li>
+                    <li class=" nav-item">
+                        <a class=" nav-link text-decoration-none text-secondary" href="#"><i
+                                class="fas fa-chart-bar"></i> <small
+                                class="font-weight-bold text-dark">Reports</small></a>
+                    </li>
+                    <li class=" nav-item">
+                        <a class=" nav-link text-decoration-none text-secondary" href="#"><i class="fab fa-codepen"></i>
+                            <small class="font-weight-bold text-dark">Integrations</small></a>
+                    </li>
+                </ul>
+                <div class=" p-3">
+                    <small class=" font-weight-bold text-muted">SAVED REPORTS</small>
+                    <i class=" pt-1 float-right far fa-plus-square"></i>
+                </div>
+                <ul class=" nav flex-column">
+                    <li class=" nav-item">
+                        <a class=" nav-link text-decoration-none text-secondary" href="#"><i
+                                class="far fa-newspaper"></i> <small class="font-weight-bold text-dark">Curren
+                                month</small></a>
+                    </li>
+                    <li class=" nav-item">
+                        <a class=" nav-link text-decoration-none text-secondary" href="#"><i
+                                class="far fa-newspaper"></i> <small class="font-weight-bold text-dark">Last
+                                quarter</small></a>
+                    </li>
+                    <li class=" nav-item">
+                        <a class=" nav-link text-decoration-none text-secondary" href="#"><i
+                                class="far fa-newspaper"></i> <small class="font-weight-bold text-dark">Social
+                                engagement</small></a>
+                    </li>
+                    <li class=" nav-item">
+                        <a class=" nav-link text-decoration-none text-secondary" href="#"><i
+                                class="far fa-newspaper"></i> <small class="font-weight-bold text-dark">Year-end
+                                sale</small></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-10 bg-white">
+                <div class=" pt-3" style=" height: 50px;">
+                    <div class=" float-left">
+                        <h2>Drashboard</h2>
+                    </div>
+                    <div class=" float-right">
+                        <button class=" btn btn-outline-secondary">Share</button>
+                        <button class=" btn btn-outline-secondary">Export</button>
+                        <button class=" btn btn-outline-secondary"><i class="far fa-calendar-alt"></i> This week <i
+                        class="fas fa-caret-down"></i></button>
+                    </div>
+                </div>
+                <hr>
             </div>
         </div>
     </div>
 
 
-        <!-- End Header-->
+    <!-- End Header-->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
+
 </html>
