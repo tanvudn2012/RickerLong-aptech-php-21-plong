@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css">
+    <title>Title</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 id="h1"></h1>
+                <p></p>
+                <button class=" btn btn-danger" onclick="nhap()">Click me</button>
+                <button class=" btn btn-danger" onclick="block()">Block</button>
+                <script>
+                    function nhap() {
+                        var ten = "Huynh Tan Vu";
+                        var lop = "Lop PHP 21";
+
+                        document.getElementById("h1").innerHTML = ten + lop;
+
+                    }
+
+                    function block() {
+                        var a = ""
+
+                        document.getElementById("h1").innerHTML = a;
+                    }
+
+
+
+                    // Gọi bằng objects vu là tên object firstName là property(key) Tan là value.
+
+                    var vu = {
+                        firstName: "Tan",
+                        lastName: "Vu",
+                        id: 5566,
+                        fullName: function () {
+                            var ten = " Tan Vu";
+                            var lop = " PHP 21";
+                            console.log(ten)
+                            console.log(lop)
+                        }
+                    };
+                    vu.firstName;
+                    vu.fullName();
+
+                    // ------------------------------------
+                    var tanvu = {
+                        lot: "Tan",
+                        ten: "Vu",
+                        id: 5566,
+                        hoten: function (nguoiyeu) {
+                            return {
+                                trangThai: "Người yêu của Vũ là" + nguoiyeu + "ahihi"
+                            }
+                        }
+                    };
+                    console.log(tanvu.ten + "love" + tanvu.hoten() + "aa")
+                    //-------------------------------------------
+
+                    function callByValue(varOne, varTwo) {
+                       
+                        varOne = 100;
+                        varTwo = 200;
+                        console.log("varOne =" + varOne + "varTwo =" + varTwo);
+                    }
+                    let varOne = 10;
+                    let varTwo = 20;
+                    
+                    callByValue(varOne, varTwo)
+                   
+                   
+                </script>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

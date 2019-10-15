@@ -10,6 +10,7 @@
 <title>Title</title>
 </head>
 <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
   <div class=" Header pos-f-t" id="Head">
     <div class="collapse bg-dark" id="Hiddenbar">
       <div class=" container bg-dark p-4">
@@ -35,10 +36,26 @@
             <i class="fas fa-camera"></i>
             <h3 class=" text-white ml-2">Album</h3>
           </div>
-          <button class=" float-right navbar-toggler" type="button" data-toggle="collapse" data-target="#Hiddenbar" aria-controls="Hiddenbar" aria-expanded="false" aria-label="Toggle navigation">
-
+          <button id="Hide" class=" float-right btn btn-outline-secondary " type="button" >
             <span class=" float-right navbar-toggler-icon"></span>
-          </button>   
+          </button>
+          <script>
+            function hidemenu(){
+            }
+
+           $(document).ready(function(){
+              $('#Hide').click(function(){
+                var a = true;
+                
+                console.log(a=='#Hide')
+                if(a==true){
+                  $('#Hiddenbar').show();
+                }else{
+                  $('#Hiddenbar').hide(); 
+                }
+              })
+            });
+          </script>   
       </div>
     </nav>
     <div class="container Albumexample ">
@@ -200,7 +217,6 @@
     </div>
   </div>
  </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
