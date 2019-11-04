@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{asset('css/bootstrap.css')}}">
+    <link rel="stylesheet" href="{{asset('css/043.css')}}">
+    <title>Document</title>
+</head>
+<body>
+<div class=" container-fluid header--dark " >
+    <div class="row header--dark__1st-row w-100 m-0 p-0 h-100">
+         <div class=" col-9 header--dark__1st-row__1st-col d-flex align-items-center">
+            <a class=" header--dark__1st-row__1st-col__Archon--white--size ">Fixed navbar</a>
+            <a class=" header--dark__1st-row__1st-col__Archon--white  pl-3"> Home</a>
+            <a class=" header--dark__1st-row__1st-col__Archon--dark  pl-3">Link</a>
+            <a class="header--dark__1st-row__1st-col__Archon--pale  pl-3" >Disabled</a>
+        </div>
+        <div class="col-3 header--dark__1nd-row__2nd-col d-flex align-items-center justify-content-end ">
+            <input class=" header--dark__1st-row__2nd-col__input " type="text" placeholder="Seacrh">
+            <button class="header--dark__1st-row__2nd-col__bnt--green">Seacrh</button>
+        </div>
+    </div>
+</div>
+<div class=" container section ">
+    <div class="row section__1st-row d-flex">
+        <h1>Sticky footer with fixed navbar</h1>
+        <p class=" section__1st-row__Para--size ">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with<code> padding-top: 60px; </code> on the <code> main > .container</code>.</p> 
+        <p>Back to <a href="https://getbootstrap.com/docs/4.3/examples/sticky-footer/">the default sticky footer</a> minus the navbar.</p>
+    </div>
+
+</div>
+<div class=" container footer" >
+    <div class="row footer__1st-row ">
+        <p class="footer__1st-row__Para--dark ">Place sticky footer content here.</p>
+    </div>
+</div>
+</body>
+</html>

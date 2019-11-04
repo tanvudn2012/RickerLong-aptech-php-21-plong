@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Sơ yếu lý lịch</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  type="text/css" href="{{asset('css/bootstrap.css')}}">
+    <link rel="stylesheet"  type="text/css" href="{{asset('css/style01.css')}}">
+</head>
+<body>
+<div class="Wrapper ">
+    <div class="Wrapper__Header container  mt-1">
+        <div class="Wrapper__Header__1st-Row  text-center d-flex">
+            <div class="Wrapper__Header__1st-Row__1st-Col col-3 mt-4">
+                <div class="Wrapper__Header__1st-Row__1st-Col__Image ">
+                </div>
+            </div>
+            <div class=" Wrapper__Header__1st-Row__2nd-Col col-9 ">
+                <h6 class=" pt-3">Cộng Hòa Xã Hội Chủ Nghĩa Việt Nam</h6>
+                <h6 class="">Độc Lập- Tự do- Hạnh phúc</h6>
+                <div class="Wrapper__Header__1st-Row__2nd-Col__Tiles" >
+                </div>
+                <h1 class=" pt-3">SƠ YẾU LÝ LỊCH</h1>
+            </div>  
+        </div>
+        <div class="Wrapper__Header__2nd-Row  row">
+            <div class="Wrapper__Header__2nd-Row__1st-Col col-12 ">
+                <ul >
+                    <li >Họ và tên &ensp;&ensp; &ensp;: Huỳnh Tấn Vũ</li>
+                    <li>Năm sinh &ensp;&ensp;&ensp;&nbsp;: 1998</li>
+                    <li>Giới tính &ensp;&ensp;&ensp;&ensp;&nbsp;: Nam</li>
+                    <li>Dân tộc &ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;: Kinh</li> 
+                    <li>Quê quán &ensp;&ensp;&ensp;&nbsp;: Đà Nẵng</li>
+                    <li>Địa chỉ &ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;&nbsp;: Số 32 đường Phú Xuân 9, TP Đà Nẵng</li>
+                    <li>Số chứng minh: 201784343</li>
+                    <li>Số điện thoại&ensp;&nbsp;: 0898239927</li>
+                    <li>Nghề nghiệp&ensp;&ensp;: Sinh viên năm cuối </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class=" Wrapper__Bottom  container">
+        <div class="Wrapper__Bottom__1st-Row row">
+            <div class="Wrapper__Bottom__1st-Row__1st-Col col-12 ">
+                <ul>
+                    <li>Trình độ &nbsp;&ensp;&ensp;&ensp;&ensp;&ensp;: Cao đẳng </li>
+                    <li>Chuyên ngành&ensp;: Công nghệ thông tin</li>
+                    <li>Sở thích&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;&nbsp;: Đi du lịch, nghe nhac</li>
+                    <li>Năng khiếu&nbsp;&ensp;&ensp;&ensp;: Hổng biết là gì hì hì</li>
+                    <li>Email&nbsp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;: tanvudn2012@gmail.com</li>
+                    <li>Facebook&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;:<a href=https://www.facebook.com/tanvudn2012>"https://www.facebook.com/tanvudn2012":</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

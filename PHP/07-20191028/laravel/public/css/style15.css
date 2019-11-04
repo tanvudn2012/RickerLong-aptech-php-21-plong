@@ -1,0 +1,12 @@
+
+.Section__1st-Row__1st-Col__1st-Card{
+    background-image: url(https://github.com/namnh06/html-demo/blob/master/news/assets/images/1.jpg?raw=true);
+    background-size: cover;
+}
+.Section__1st-Row__1st-Col__2nd-Card{
+    background-image: url(https://github.com/namnh06/html-demo/blob/master/news/assets/images/2.jpg?raw=true);
+    background-size: cover;
+}
+.IMG{
+    height: 150px;
+}

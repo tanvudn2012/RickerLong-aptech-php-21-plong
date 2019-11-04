@@ -1,0 +1,28 @@
+body {
+  height: 100%;
+}
+
+.Head {
+  width: 100%;
+}
+
+.Head__container {
+  width: 680px;
+}
+
+.Head__container__1st-Row__Para--dark {
+  font-size: 20px;
+  color: #343a40;
+}
+.Footer{
+  width: 100%;
+  margin-top: 410px;
+}
+.Footer__container {
+  width: 680px;
+}
+
+.Footer__container__1st-Row__Para--silver {
+  color: #6c757d;
+}
+/*# sourceMappingURL=style.css.map */

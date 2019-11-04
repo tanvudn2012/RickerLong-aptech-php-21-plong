@@ -1,0 +1,53 @@
+.Wrapper{
+    background-color: rgb(154, 209, 241);
+    margin: 20px auto;
+    width: 600px;
+    height: 700px;
+    border: solid 2px black;
+    border-radius: 50px;
+    &__Header{
+        width: auto;
+        height: 450px;
+        border-bottom: solid black 1px;
+        &__1st-Row{
+            &__1st-Col{
+                &__Image{
+
+                    background-image: url(img/lg1.png);
+                    background-size: 100px 100px;      
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+            &__2nd-Col{
+                &__Tiles{
+                    margin: 0px auto;
+                    width: 200px;
+                    height: 1px; 
+                    border-bottom: solid 1px black;
+                }
+
+            }
+        }
+        &__2nd-Row{
+            padding: 5px 0px 0px 90px;
+            &__1st-Col{
+                & ul li {
+                    padding: 5px;
+                }
+            }
+        }
+
+    }
+    &__Bottom{
+        margin: 15px 0 0 80px;
+        &__1st-Row{
+            padding: 5px 0px 0px 90px;
+            &__1st-Col{
+                & ul li{
+                    padding: 5px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css">
+<title>Title</title>
+</head>
+
+<body>
+    <form action="">
+        Số dòng: <input type="text" id="row">
+        <br>
+        Số cột: <input type="text" id="column">
+        <br>
+        <input type="button" value="Tạo table" onclick="return createTable()">
+      </form>
+      
+      <br>
+        
+      <div class=" container-fluid" id="container">
+      
+      </div>
+      <script>
+          function createTable() {
+  var row = document.getElementById("row");
+  var column = document.getElementById("column");
+  
+  if (row.value.length == 0 || column.value.length == 0) {
+    alert("Vui lòng nhập vào số dòng và số cột");
+		return false;
+  } else if (isNaN(row.value) || isNaN(column.value)) {
+		alert("Vui lòng nhập giá trị số cho số dòng và số cột");
+		return false;
+  } else {
+		var container = document.getElementById("container");
+	
+		var countRow = parseInt(row.value);
+		var countColumn = parseInt(column.value);
+	
+		var tagTable = document.createElement("table");
+		tagTable.border = 1;
+	
+		for (var i = 0; i < countRow; i++) {
+      var tagRow = document.createElement("tr");
+      tagTable.appendChild(tagRow);
+	  		
+      for(var j = 0; j < countColumn; j++) {
+        var tagColumn = document.createElement("td");
+				var textNode = document.createTextNode(i + " - " + j);
+				tagColumn.appendChild(textNode);
+				tagRow.appendChild(tagColumn);
+      }
+		}
+	
+		container.appendChild(tagTable);
+	
+		return true;
+  }
+}
+      </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

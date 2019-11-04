@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{asset('css/bootstrap.css')}}">
+    <link rel="stylesheet" href="{{asset('css/041.css')}}">
+    <title>Document</title>
+</head>
+<body style="height: 100vh; width: 100vmax;background-color: #363636
+; color: white " >
+<div class="Wrapper m-auto">
+    <div class="container Header">
+        <div class="Header__Firt-row h-100 d-flex">
+            <div class=" col-8 Header__Firt-row__1st-column h-50 d-flex align-items-center" >
+                <h4>Cover</h4>
+            </div>
+            <div class=" col-4 Header__Firt-row__2st-column h-50 d-flex align-items-center">
+                <a href="#" class="nav-link Header__Firt-row__2st-column__anchor--active-white   px-0" >Home</a>
+                <a href="#" class="   nav-link Header__Firt-row__2st-column__anchor--active-silver  px-0 ml-2">Features</a>
+                <a href="#" class=" nav-link Header__Firt-row__2st-column__anchor--active-silver  px-0 ml-2">Contact</a>
+            </div>
+        </div>
+    </div>
+    <div class="container Between "  >
+        <div class=" Between__Firt-row h-100  d-flex  flex-column align-items-center pt-5">
+            <h1>Cover your page.</h1>
+            <p class=" Between__Firt-row__Para--size18px p1 text-center">Cover is a one-page template for building simple and beautiful home <br> pages. Download, edit the text, and add your own fullscreen <br> photo to make it your own.</p>
+            <button class="Between__Firt-row__btn--white">Learn more</button>
+        </div>
+    </div>
+    <div class="container Footer">
+        <div class=" Footer__Firt-row h-100  d-flex  text-center">
+            <p class=" Footer__Firt-row__Para--dimgray p2 m-auto">Cover template for <a class=" Footer__Firt-row__Para--dimgray__Anchor--white " href="https://getbootstrap.com/"> Bootstrap </a>, by <a class=" Footer__Firt-row__Para--dimgray__Anchor--white" href="https://twitter.com/mdo">@mdo</a>.</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

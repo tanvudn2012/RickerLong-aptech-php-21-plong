@@ -1,0 +1,21 @@
+body {
+  height: 650px;
+}
+
+.Login__1st-Row__Form__Input-mail {
+  height: 50px;
+  width: 300px;
+}
+
+.Login__1st-Row__Form__Input-pass {
+  height: 50px;
+  width: 300px;
+}
+
+.Login__1st-Row__Form__btn {
+  height: 50px;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,49 @@
+#wrapper{
+    width: 1100px;
+    height: 100%;
+    display: flex;
+}
+
+#Head{
+    width: 33.3%;
+    height: 200px;
+    background-color: blue
+}
+#section{
+    width: 33.3%;
+    height: 200px;
+    background-color: white;
+}
+#footer{
+    width: 33.3%;
+    height: 200px;
+    background-color: red;
+}
+@media screen and (max-width:1000px){ 
+    #Head{
+        background-color: black;
+        width: 100%;
+    }
+    #section{
+        background-color: yellow;
+        width: 100%;
+    }
+    #footer{  
+        background-color: red;
+        width: 100%;
+    }
+}
+@media screen and (max-width:500px){   
+    #wrapper{
+        flex-direction: column;
+    } 
+    #Head{
+        background-color: black;
+    }
+    #section{
+        background-color: yellow;
+    }
+    #footer{
+        background-color: red;
+    }
+}
