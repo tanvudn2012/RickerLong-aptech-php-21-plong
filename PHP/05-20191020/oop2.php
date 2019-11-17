@@ -48,6 +48,7 @@ class superHero extends Hero
     }
 }
 Hero::Homeword();
+$this->setName();
 $antimage = new Hero;
 $antimage->setName("ANTIMAGE")->display();
 $antimage->setName('Hello ahihi');
